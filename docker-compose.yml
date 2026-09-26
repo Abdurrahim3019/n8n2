@@ -46,7 +46,7 @@ x-n8n: &service-n8n
 #  command:
 #    - "-c"
 #    - "sleep 3; ollama pull llama3.2"
-#@tjhgj
+#@tjhgjjhbkbmn
 services:
   backend:
     build:
