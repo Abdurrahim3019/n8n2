@@ -48,18 +48,18 @@ x-n8n: &service-n8n
 #    - "sleep 3; ollama pull llama3.2"
 #@tjhgjjhbkbmnjhvh
 services:
-  backend:
-    build:
-      context: ./backend
-    container_name: fastapi-backend
-    hostname: backend
-    networks: [ 'demo' ]
-    restart: unless-stopped
-    ports:
-      - 8000:8000
-    depends_on:
-      postgres:
-        condition: service_healthy
+#  backend:
+#    build:
+#      context: ./backend
+#    container_name: fastapi-backend
+#    hostname: backend
+#    networks: [ 'demo' ]
+#    restart: unless-stopped
+#    ports:
+#      - 8000:8000
+#    depends_on:
+#      postgres:
+#        condition: service_healthy
 
   postgres:
     image: postgres:16-alpine
