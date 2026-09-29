@@ -7,7 +7,7 @@ guidelines](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md).
 
 ## Vision Statement
 
-The Self-hosted AI Starter Kit is designed to be **the fastest path from zero
+The Self-hosted AI Ssstarter Kit is designed to be **the fastest path from zero
 to working AI workflows** for developers and organizations who want to
 experiment with local, private AI solutions. It provides a curated,
 pre-configured foundation that "just works" out of the box, enabling users to
